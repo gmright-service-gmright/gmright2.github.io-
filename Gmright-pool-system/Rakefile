@@ -5,7 +5,8 @@ namespace :appcache do
   task :update do
     appcache = File.read("cache.appcache")
     updated  = "# Updated: #{DateTime.now}"
-
+https://github.com/Gmright2-coll/GMRIGHT2-coll/releases/tag/V6
     File.write("cache.appcache", appcache.sub(/^# Updated:.*$/, updated))
   end
 end
+U
